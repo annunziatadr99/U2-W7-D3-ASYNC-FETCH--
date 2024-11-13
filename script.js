@@ -17,6 +17,7 @@ const fetchBooks = () => {
             const col = document.createElement("div");
             col.className = "col"
             const img = document.createElement("img");
+            img.style.width = "80%"
             img.src = char.img;
 
             row.appendChild(col)
